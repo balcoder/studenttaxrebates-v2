@@ -5,7 +5,7 @@
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Student Tas Rebates theme from Bootstrap.",
+    "description": "Student Tax Rebates theme from Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -14,9 +14,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://github.com/balcoder/studenttaxrebates",    
+    "homepage": "https://github.com/balcoder/studenttaxrebates",
     "license": "MIT",
-    "author": "Des Barrett",    
+    "author": "Des Barrett",
     "repository": {
         "type": "git",
         "url": "https://github.com/balcoder/studenttaxrebates.git"
