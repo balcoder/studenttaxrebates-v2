@@ -20,13 +20,19 @@
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
+  // Activate scrollspy to add active class to  main navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 56
   });
 
-  // Collapse Navbar
+  // Activate scrollspy to add active class to  privacyNav items on scroll
+  $('body').scrollspy({
+    target: '#privacyNav',
+    offset: 56
+  });
+
+  // Collapse Navbar by adding/removing class navbar-shrink
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
