@@ -1,5 +1,36 @@
 .form-info {
-  border: solid 2px $gray-400;
+  border: solid 2px $primary;
   background-color: $gray-100;
   padding: 20px;
+
+  legend {
+    font-size: 1.1rem;
+  }
+}
+
+.contact-buttons {
+  margin-bottom: 0;
+  color: white;
+
+    i{
+      font-size: 50px;
+      line-height: 60px;
+      //display: block;
+      //width: 100px;
+      //height: 100px;
+      // -webkit-transition: all 0.3s;
+      // -moz-transition: all 0.3s;
+      // transition: all 0.3s;
+      color: white;
+      //border-radius: 100%;
+      outline: none;
+      //background-color: white;
+      &:active,
+      &:focus,
+      &:hover {
+        color: $primary;
+      }
+}
+
+
 }
