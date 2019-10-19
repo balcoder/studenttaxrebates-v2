@@ -1,0 +1,12 @@
+#howitworks {
+  .fa-stack {
+    font-size: 3em;
+  }
+
+  @media(min-width: 500px) {
+    .fa-stack {
+      font-size: 4em;
+    }
+
+  }
+}

@@ -30,9 +30,9 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding: 60px 0;
   h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -43,6 +43,16 @@ h6 {
     margin-bottom: 75px;
     text-transform: none;
     @include serif-font;
+  }
+}
+
+@media(min-width: 500px) {
+  .page-section{
+    padding: 100px 0;
+    h2.section-heading {
+      font-size: 40px
+    }
+
   }
 }
 @media(min-width:768px) {
