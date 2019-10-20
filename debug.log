@@ -122,3 +122,5 @@
 [1010/195919.237:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1019/082222.168:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1019/082222.169:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1020/103656.035:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1020/103656.037:ERROR:crash_report_database_win.cc(469)] failed to stat report
