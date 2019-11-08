@@ -841,30 +841,15 @@ section#contact :-ms-input-placeholder {
 }
 
 .terms ol {
-  list-style-type: none;
-  counter-reset: item;
-  margin: 0;
-  padding: 0;
-}
-
-.terms li {
-  display: table;
-  counter-increment: item;
-  margin-bottom: 0.6em;
-}
-
-.terms li:before {
-  content: counters(item, ".") ". ";
-  display: table-cell;
-  padding-right: 0.6em;
-}
-
-.terms li li {
-  margin: 0;
-}
-
-.terms li li:before {
-  content: counters(item, ".") " ";
+  color: #6c757d !important;
+  text-transform: uppercase !important;
+  font-weight: 700;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  -webkit-padding-start: 20px;
+  padding-inline-start: 20px;
 }
 
 .footer {

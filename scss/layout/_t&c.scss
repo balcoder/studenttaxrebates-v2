@@ -1,30 +1,12 @@
 .terms {
-
   ol {
-    list-style-type: none;
-    counter-reset: item;
-    margin: 0;
-    padding: 0;
+    color: #6c757d!important;
+    text-transform: uppercase!important;
+    font-weight: 700;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    padding-inline-start: 20px;
   }
-
-  li {
-    display: table;
-    counter-increment: item;
-    margin-bottom: 0.6em;
-  }
-
-  li:before {
-      content: counters(item, ".") ". ";
-      display: table-cell;
-      padding-right: 0.6em;
-  }
-
-  li li {
-      margin: 0;
-  }
-
-  li li:before {
-      content: counters(item, ".") " ";
-  }
-
 }
